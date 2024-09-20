@@ -155,6 +155,6 @@ Para asegurar la persistencia de los datos, es necesario utilizar volúmenes en 
     ![Volumes Picture](imgs/volumes_image.png)
 
 
-### 3. Tipo de persistencia adecuada para la app
+### 2. Tipo de persistencia adecuada para la app
 
 La opción adecuada para esta aplicación es utilizar **volúmenes de Docker**, ya que permiten almacenar los datos en el sistema de archivos del host sin depender de la vida útil del contenedor. Esto es ideal para aplicaciones que manejan archivos pequeños como bases de datos en formato texto (`todo.db`), permitiendo su recuperación incluso si el contenedor es eliminado o recreado.
